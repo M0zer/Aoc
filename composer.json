@@ -1,0 +1,28 @@
+{
+    "name": "m0zer/Aoc",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Márk",
+            "email": "markdonat7@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "M0zer\\Aoc\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "M0zer\\Aoc\\Tests\\": "tests/src/"
+        }
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.0@dev",
+        "phpunit/phpunit": "^10.0@dev"
+    }
+}
